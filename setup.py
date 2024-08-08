@@ -2,11 +2,13 @@ from setuptools import find_packages, setup
 from typing import List
 
 
+
 def get_requiremetns(filepath:str)->List[str]:
     requirements = []
     with open(filepath) as file_obj:
         requirements = file_obj.readlines()
         requirements = [req.replace("\n","") for req in requirements]
+
 
         return requirements
 
