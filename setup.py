@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 from typing import List
 
-HYPHEN_E_DOT = " -e ."
+
 
 def get_requiremetns(filepath:str)->List[str]:
     requirements = []
