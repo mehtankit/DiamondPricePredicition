@@ -19,6 +19,6 @@ setup(
     version='0.0.1',
     author='Ankit',
     author_email='ankit1.saramati@south.du.ac.in',
-    install_rqeuires=get_requiremetns("requirements.txt"),
+    install_requires=get_requiremetns("requirements.txt"),
     packages=find_packages() # find_packges
 )
